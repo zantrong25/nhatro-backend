@@ -1,3 +1,13 @@
+//local
+// require('dotenv').config();
+// const app = require('./app');
+// require('./config/db');
+
+// const PORT = process.env.PORT || 5000;
+
+// app.listen(PORT, () => {
+//   console.log(`Server dang chay tai http://localhost:${PORT}`);
+// });
 require('dotenv').config();
 const app = require('./app');
 require('./config/db');
@@ -5,5 +15,5 @@ require('./config/db');
 const PORT = process.env.PORT || 5000;
 
 app.listen(PORT, () => {
-  console.log(`Server dang chay tai http://localhost:${PORT}`);
+  console.log(`Server dang chay o cong ${PORT}`);
 });
